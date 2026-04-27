@@ -6,15 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="color-scheme" content="dark light" />
     <title>Сложно сосредоточиться</title>
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles/globals.css" />
     <link rel="stylesheet" href="./styles/variables.css" />
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/dark.css" />
     <link rel="stylesheet" href="./styles/light.css" />
-    <link rel="stylesheet" href="./fonts/fonts.css" />
-    <link rel="stylesheet" href="./styles/globals.css" />
     <link rel="icon" href="./images/favicon.ico" sizes="any" />
     <link rel="icon" href="./images/favicon.svg" type="image/svg+xml" />
     <link rel="mobile-icon" href="./images/mobile-icon.png" />
+    <link rel="apple-touch-icon" href="./images/mobile-icon.png" />
     <script src="./scripts/script.js"></script>
   </head>
   <body class="page">
@@ -45,8 +46,8 @@
           </li>
         </ul>
       </nav>
-      <div class="rec" aria-hidden="true">rec</div>
-      <h1 class="h1">no focus</h1>
+      <span class="rec" aria-hidden="true">rec</span>
+      <h1 class="main-title">no focus</h1>
       <p class="title-text title-decor">
         Что делать, когда не можешь делать ничего
         <span
@@ -57,10 +58,10 @@
     </header>
     <main class="main">
       <section class="section section-why">
-        <h2 class="card-title card-title_why">
+        <h2 class="card-title card-title_grid_aside">
           Почему сосредоточиться так сложно
         </h2>
-        <article class="text-block text-block_why">
+        <article class="text-block text-block_grid_main">
           <h3 class="subtitle title-decor">Многозадачность</h3>
           <p class="card-text">
             Особенно сложно сосредоточиться, когда задач много и все они —
@@ -79,7 +80,7 @@
             устаём.
           </p>
         </article>
-        <article class="text-block text-block_why">
+        <article class="text-block text-block_grid_main">
           <h3 class="subtitle title-decor">Дофамин</h3>
           <p class="card-text">
             С гормонами стресса всё понятно, но дальше — ещё интереснее. В нашей
@@ -94,11 +95,11 @@
         </article>
       </section>
       <section class="section section-what">
-        <h2 class="card-title card-title_what">
+        <h2 class="card-title card-title_grid_header">
           Что снижает концентрацию внимания?
         </h2>
         <div class="section-articles">
-          <article class="text-block text-block_what">
+          <article class="text-block text-block_grid_card">
             <h3 class="subtitle title-decor">Концентрация</h3>
             <p class="card-text">
               Как концентрация может снижаться из-за… концентрации? Любая
@@ -109,7 +110,7 @@
               может не выдержать, если не давать ей отдохнуть.
             </p>
           </article>
-          <article class="text-block text-block_what">
+          <article class="text-block text-block_grid_card">
             <h3 class="subtitle title-decor">Еда</h3>
             <p class="card-text">
               «Быстрые углеводы» — сахар, белый хлеб, сладости — молниеносно
@@ -120,7 +121,7 @@
               хотим ещё больше быстрых углеводов.
             </p>
           </article>
-          <article class="text-block text-block_what">
+          <article class="text-block text-block_grid_card">
             <h3 class="subtitle title-decor">Гаджеты</h3>
             <p class="card-text">
               Да-да, это та самая ситуация, когда на экране ноутбука — код, в
@@ -135,14 +136,14 @@
         </div>
       </section>
       <section class="section section-how">
-        <h2 class="card-title card-title_how">
+        <h2 class="card-title card-title_grid_tall">
           Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх
           секунд)
         </h2>
         <h3 class="subtitle title-decor">
           5 простых (на самом деле не очень) советов
         </h3>
-        <article class="text-block text-block_how">
+        <article class="text-block text-block_grid_row">
           <h4 class="subtitle list title-decor">Представьте небо и облака</h4>
           <p class="card-text">
             Или листья в ручье. Тут дело в лёгкой медитации, которая помогает
@@ -155,7 +156,7 @@
             проблемах из будущего.
           </p>
         </article>
-        <article class="text-block text-block_how">
+        <article class="text-block text-block_grid_row">
           <h4 class="subtitle list title-decor">Включите музыку</h4>
           <p class="card-text">
             Но не любую, и не любимую. Любимая может быть связана с сильными
@@ -164,7 +165,7 @@
             попробовать включить плейлист в «белым шумом» или нейромузыкой.
           </p>
         </article>
-        <article class="text-block text-block_how">
+        <article class="text-block text-block_grid_row">
           <h4 class="subtitle list title-decor">Прогуляйтесь</h4>
           <p class="card-text">
             Или даже пробегитесь. Лучше найти парк или лес: один эксперимент
@@ -180,7 +181,7 @@
             простая двадцатиминутная прогулка — тоже отличный вариант.
           </p>
         </article>
-        <article class="text-block text-block_how">
+        <article class="text-block text-block_grid_row">
           <h4 class="subtitle list title-decor">Хорошо ешьте</h4>
           <p class="card-text">
             Мы — не ваша бабушка, но это правда важно. Выбирайте продукты,
@@ -189,7 +190,7 @@
             фасоль), коричневый рис, хлеб из цельнозерновой пшеницы.
           </p>
         </article>
-        <article class="text-block text-block_how">
+        <article class="text-block text-block_grid_row">
           <h4 class="subtitle list title-decor">Читайте</h4>
           <p class="card-text">
             Настоящие бумажные книги. Это правда помогает с концентрацией: чтобы
@@ -245,21 +246,8 @@
         </ul>
       </section>
     </main>
-    <footer class="footer decorations">
+    <footer class="footer decorated-zone">
       <h2 class="footer-title">focus</h2>
     </footer>
   </body>
 </html>
-
-<!-- Анекдот из моего первого университета:
- Что должен знать студент?
- Всё!
- А что должен знать лаборант?
- Почти то же, что и студент.
- А аспирант?
- В какой книге находится то, что должен знать студент.
- А доцент?
- Где находится эта книга.
- А профессор?
- Где находится доцент..
--->
